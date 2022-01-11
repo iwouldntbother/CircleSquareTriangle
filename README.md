@@ -32,8 +32,8 @@ themes that we explore during the workshops.
 
 ## Task 01
 
-1. 
-2. 
+1. Red Bull can top.
+2. GAN structure [ref](https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/)
 3. 
 4. 
 5. 
@@ -55,3 +55,7 @@ themes that we explore during the workshops.
 21. 
 22. 
 23. 
+
+## Experiments
+
+1. Drawing classifier [Dataset](https://www.kaggle.com/cactus3/basicshapes)
