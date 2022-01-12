@@ -21,7 +21,12 @@
       justify-content: center;
       align-items: center;
     }
+    #guessOutput {
+      max-width: 35vw;
+    }
     #canvasHolder {
+      /* width: 25vw;
+      height: 25vw; */
       border: solid black 1vw;
     }
     p {
@@ -32,10 +37,21 @@
     button {
       width: 10vw;
       padding: 0.5vw 0;
-      background-color: green;
       color: white;
       border: none;
       margin-top: 2vw;
+    }
+    #submitBTN {
+      background-color: green;
+    }
+    #resetBTN {
+      background-color: gold;
+    }
+
+    @media only screen and (max-width: 768px) {
+      button {
+        width: 25vw;
+      }
     }
   </style>
 </head>
@@ -50,11 +66,10 @@
 
     <p>Draw a circle, square or triangle above and click submit to see if the AI can guess what you drew.</p>
 
-    <button onclick='classify()'>Submit</button>
+    <button id='submitBTN' onclick='classify()'>Submit</button>
+    <button id='resetBTN' onclick='reset()'>Reset</button>
 
   </div>
-
-  
   
   <script>
     
@@ -62,42 +77,60 @@
       console.log('Model Loaded!');
     }
     
-    const classifier = ml5.imageClassifier('./model/model.json', modelLoaded);
-    
     const classify = () => {
+      var guessOutput = document.getElementById('guessOutput');
+      guessOutput.innerHTML = 'Loading...';
       var canvas = document.getElementById('defaultCanvas0');
       var ctx = canvas.getContext('2d');
       var img = new Image();
       img.src = canvas.toDataURL();
-      console.log(img)
       let topResult = null;
       classifier.classify(img, (err, results) => {
-        console.log(results);
+        // console.log(results);
         topResult = results.reduce((prev, current) => (prev.confidence > current.confidence) ? prev : current)
-        console.log(topResult)
-        document.getElementById('guessOutput').innerHTML = topResult.label +'? ('+topResult.confidence+')'
+        // console.log(topResult)
+        // document.getElementById('guessOutput').innerHTML = topResult.label +'? ('+topResult.confidence+')'
+
+        document.getElementById('guessOutput').innerHTML = 'I am ' + String(Number(topResult.confidence)*100).slice(0,4) + '% sure you drew a ' + topResult.label
       });
     }
 
-    var penWidth; // 4 - Normal, 10 - Large (Eraser)
-    var penColour; // 0 - Black, 220 - Background (Eraser)
+    const reset = ()  => {
+      document.getElementById('guessOutput').innerHTML = ''
+      setup();
+    }
+
+    var penWidth;
+    var penColour;
     var runSetup = true;
+    var classifier;
+    var canDim;
+
+    function preload() {
+      classifier = ml5.imageClassifier('./modelMain/model.json', modelLoaded);
+    }
 
     function setup() {
-      var canvas = createCanvas(windowHeight/2, windowHeight/2);
+      if (window.matchMedia('(min-width: 768px)').matches) {
+        canDim = windowHeight*0.5
+      } else {
+        canDim = windowHeight*0.25
+      }
+      var canvas = createCanvas(canDim, canDim);
       canvas.parent('canvasHolder');
       penWidth = 10;
       penColour = 0;
-      clear();
+      background(255);
     }
 
     function windowResized() {
-      resizeCanvas(windowHeight/2, windowHeight/2);
+      resizeCanvas(canDim, canDim);
     }
 
 
     function draw() {
       // console.log(penWidth)
+      // background(255)
       strokeWeight(Number(penWidth));
       stroke(Number(penColour));
       if (mouseIsPressed) {

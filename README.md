@@ -5,7 +5,7 @@
 [Copy of the brief](docs\IS_U7_21-22_CircleSquareTriangle.pdf)
 
 > In the oldest writings and in rock inscriptions of early man/woman the &#9632; signifies
-enclosure, of home, of settlement. The &#11044; is related to the divine: a simple &#11044; has,
+enclosure, of home, of settlement. The &#9679; is related to the divine: a simple &#9679; has,
 since ancient times represented eternity, since it has no beginning or end. The &#9650;
 it’s distinct structure means we find it in lots of complex structures and in many
 mineral and vegetable forms and structures found in nature, ranging from the
@@ -15,9 +15,9 @@ clover to the oleander
 
 <br>
 
->&#11044; &#9632; &#9650; is an investigation into how we translate form and meaning. The project
+>&#9679; &#9632; &#9650; is an investigation into how we translate form and meaning. The project
 is made up of a series of workshops that explore an idea and theme responding
-to each shape of these basic shapes the &#11044;, the &#9632; and the &#9650;. Based on these
+to each shape of these basic shapes the &#9679;, the &#9632; and the &#9650;. Based on these
 workshops you will generate an outcome; the format, media or medium is up to
 you. It could be coded, performed, printed, bound, filmed, interactive, etc. These
 outcomes are to challenge the ideas and themes explored in the workshop.
@@ -50,12 +50,16 @@ themes that we explore during the workshops.
     // this will run 100 times
   }
   ```
+
 4. Equation of a circle
   ```
   x² + y² = r²
   ```
-5. 
-6. 
+
+5. Binary 0 / 1
+
+6. Squaring the circle [ref](https://en.wikipedia.org/wiki/Squaring_the_circle#Claims_of_circle_squaring)
+
 7. 
 8. 
 9. 
