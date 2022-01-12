@@ -1,0 +1,35 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+  background-color: #2d3436;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.textBlock {
+  white-space: pre;
+}
+
+.imgBlock {
+  background-color: blue;
+}
+
+.imgCont {
+  width: fit-content;
+  background: #2d3436;
+}
+
+.imgBar {
+  height: 1.25vw;
+  text-align: right;
+  padding: 0 0.5vw;
+  border: solid 0.15vw white;
+}
+
+.imgCont img {
+  border: solid 0.15vw white;
+}

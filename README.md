@@ -13,6 +13,8 @@ clover to the oleander
 
 — Bruno Munari, Square Circle Triangle, 1960.
 
+<br>
+
 >&#11044; &#9632; &#9650; is an investigation into how we translate form and meaning. The project
 is made up of a series of workshops that explore an idea and theme responding
 to each shape of these basic shapes the &#11044;, the &#9632; and the &#9650;. Based on these
@@ -27,7 +29,7 @@ themes that we explore during the workshops.
 
 ## &#11044; &#9632; &#9650; &#11044; &#9632; &#9650; &#11044; &#9632; &#9650; &#11044; &#9632; &#9650; &#11044; &#9632; &#9650; &#11044; &#9632; &#9650; &#11044; &#9632; &#9650; &#11044; &#9632; &#9650; &#11044; &#9632; &#9650; &#11044; &#9632; &#9650;
 <br>
-<br>
+
 
 ### Tasks:
 
