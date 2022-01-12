@@ -23,7 +23,11 @@ You are to keep detailed records and reflections on all the work and workshops.
 Essentially, the brief is to create your own brief in response to the ideas and
 themes that we explore during the workshops.
 
-&#11044; &#9632; &#9650;
+<br>
+
+## &#11044; &#9632; &#9650; &#11044; &#9632; &#9650; &#11044; &#9632; &#9650; &#11044; &#9632; &#9650; 
+<br>
+<br>
 
 ### Tasks:
 
@@ -32,10 +36,22 @@ themes that we explore during the workshops.
 
 ## Task 01
 
-1. Red Bull can top.
-2. GAN structure [ref](https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/)
-3. 
-4. 
+1. Red Bull can top.<br>
+![Red Bull can top](https://www.seekpng.com/png/detail/87-877714_red-bull-can-png-download-red-bull-can.png)
+
+2. GAN structure [ref](https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/)<br>
+![GAN flowchart](https://machinelearningmastery.com/wp-content/uploads/2019/04/Example-of-Supervised-Learning.png)
+
+3. For loop
+  ``` javascript
+  for (i=0; i<100; i++) {
+    // this will run 100 times
+  }
+  ```
+4. Equation of a circle
+  ```
+  x² + y² = r²
+  ```
 5. 
 6. 
 7. 
