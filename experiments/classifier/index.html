@@ -23,6 +23,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      overflow: none;
     }
     #guessOutput {
       max-width: 35vw;
@@ -57,9 +58,12 @@
         width: 25vw;
       }
       #guessOutput {
-        max-width: 50vw;
+        max-width: 80vw;
         font-size: 4vw;
         text-align: center;
+      }
+      h1 {
+        margin-top: 0;
       }
     }
   </style>
@@ -120,10 +124,10 @@
     }
 
     function setup() {
-      if (window.matchMedia('(min-width: 768px)').matches) {
-        canDim = windowHeight*0.5
+      if (window.matchMedia('(max-width: 768px)').matches) {
+        canDim = windowWidth*0.9
       } else {
-        canDim = windowHeight*0.25
+        canDim = windowHeight*0.5
       }
       var canvas = createCanvas(canDim, canDim);
       canvas.parent('canvasHolder');
