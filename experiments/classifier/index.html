@@ -12,6 +12,9 @@
       padding: 0;
       margin: 0;
       font-family: monospace;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
     }
     #siteContainer {
       width: 100vw;
@@ -23,6 +26,7 @@
     }
     #guessOutput {
       max-width: 35vw;
+      text-align: center;
     }
     #canvasHolder {
       /* width: 25vw;
@@ -52,6 +56,11 @@
       button {
         width: 25vw;
       }
+      #guessOutput {
+        max-width: 50vw;
+        font-size: 4vw;
+        text-align: center;
+      }
     }
   </style>
 </head>
@@ -59,7 +68,7 @@
 
   <div id='siteContainer'>
 
-    <h1>&#11044; &#9632; &#9650;</h1>
+    <h1>&#9679; &#9632; &#9650;</h1>
     <h2 id='guessOutput'></h2>
 
     <div id='canvasHolder'></div>
