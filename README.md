@@ -60,23 +60,44 @@ themes that we explore during the workshops.
 
 6. Squaring the circle [ref](https://en.wikipedia.org/wiki/Squaring_the_circle#Claims_of_circle_squaring)
 
-7. 
-8. 
-9. 
-10. 
-11. 
-12. 
-13. 
-14. 
-15. 
-16. 
-17. 
-18. 
-19. 
-20. 
-21. 
-22. 
-23. 
+7. Omicron (&#927;) Greek symbol, meaning little o (O-Mikron), opposing omega (O-Mega) meaning big O.
+
+8. Mandelbrot set does not diverge to infinity when iterated from z=0, although it looks like it does, forming an infinitely large loop or circle.
+
+```
+ z_(n+1)=z_n^2+C 
+```
+
+9. A Complete circuit
+
+10. Mac Miller's studio album Circles
+
+11. Circle is a peer-to-peer payments technology company.
+
+12. Website POST request
+
+13. Beanie hole
+
+14. Black hole
+
+15. Circle (2015), Aaron Hann
+
+16. Circle Square, 7 Bell Yard, London WC2A 2JR
+
+17. Circle (Noun, Shape); a continuous curved line, the points of which are always the same distance away from a fixed central point
+
+18. Circle line, London Underground
+
+19. Circle (band), is a Finnish experimental rock band formed in Pori in 1991.
+
+20. The Magic Circle
+
+21. PacMan with mouth closed
+
+22. Friendship circle
+
+23. Air Force Ensign of the United Kingdom
+![Air Force Ensign of the United Kingdom](https://upload.wikimedia.org/wikipedia/commons/c/cc/Air_Force_Ensign_of_the_United_Kingdom.svg)
 
 ## Experiments
 
